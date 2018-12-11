@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace TicTacToe
+﻿namespace TicTacToe
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        {            
+            var tic = new TicTacToe();
+            tic.Game();
         }
     }
 }
